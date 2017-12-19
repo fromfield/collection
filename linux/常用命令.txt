@@ -1,0 +1,10 @@
+查看端口进程：netstat -tlunp | grep 8097
+查看文件的后10行：tail -10 /etc/passwd 或 tail -n 10 /etc/passwd 
+不停地去读最新的内容，这样有实时监视的效果 用Ctrl＋c来终止：tail -f /var/log/messages 
+只查看文件的第5行到第10行：sed -n '5,10p' /etc/passwd 
+看文件的前5行，使用head命令：head -5 /etc/passwd 
+建立软连接(需要文件绝对路径)：ln -s file1 file2
+查看文件大小：du -h filename
+查看目录大小：du -sh directory
+查看当前文件下所有文件及大小：ll -h
+启动服务：方式一：直接启动 ./startup.sh         方式二：作为服务启动 nohup ./startup.sh &
