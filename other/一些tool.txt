@@ -1,0 +1,12 @@
+swagger：（http://localhost:8080/swagger-ui.html ）
+Springfox 是为Spring而打造的自动化生成接口文档的其中一个Java实现（只有idea）
+Django Reset Swagger 则是为Django而打造的Python实现。
+
+
+Alibaba Java Coding Guidelines(规约扫描-idea\eclipse) ：
+该插件在扫描代码后，将不符合规约的代码按Blocker/Critical/Major三个等级显示在下方，甚至在IDEA上，我们还基于Inspection机制提供了实时检测功能，编写代码的同时也能快速发现问题所在。对于历史代码，部分规则实现了批量一键修复的功能
+
+
+chocolatey：（https://chocolatey.org/）
+完全用命令行来安装应用程序， 它更像一个包管理工具（背后使用 Nuget ）
+ Chocolatey 只是把官方下载路径封装到了 Chocolatey 中，所以下载源都是其官方路径，所以下载的一定是合法的，但是如果原软件是需要 Licence 注册的话，那么 Chocolatey 下载安装好的软件还是需要你去购买注册。不过 Chocolatey 一般还是会选用免费 Licence 可用的软件。

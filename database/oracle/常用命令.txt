@@ -1,0 +1,6 @@
+--查看数据库当前连接数
+select count(*) from v$process
+
+
+--查看数据库设置的最大连接数（默认150）
+select value from v$parameter where name = 'processes'

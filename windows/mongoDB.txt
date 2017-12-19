@@ -1,0 +1,18 @@
+自定义配置数据库、日志位置：
+1、创建一个配置文件。该文件必须设置 systemLog.path 参数，包括一些附加的配置选项更好。
+例如，创建一个配置文件位于 C:\mongodb\mongod.cfg，其中指定 systemLog.path 和 storage.dbPath。具体配置内容如下：
+systemLog:
+    destination: file
+    path: c:\data\log\mongod.log（自定义日志位置）
+storage:
+    dbPath: c:\data\db（自定义数据库位置）
+2、通过执行mongod.exe，使用--install选项来安装服务，使用--config选项来指定之前创建的配置文件。
+"C:\mongodb\bin\mongod.exe" --config "C:\mongodb\mongod.cfg" --install
+
+
+基本命令：
+启动服务：net start MongoDB
+停止服务：net stop MongoDB
+切换创建数据库： use DATABASE_NAME
+删除当前数据库：db.dropDatabase()
+设置查询默认显示条数：DBQuery.shellBatchSize= 50

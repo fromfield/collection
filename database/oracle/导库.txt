@@ -1,0 +1,27 @@
+1、导出Oracle scott方案下用户对象
+
+
+exp system/password@orcl  grants=n feedback=10000 file=e:\scott.dmp owner=scott
+
+
+只要在本机设置了TNS——orcl，知道system用户名和密码就可以导出数据到本地
+
+
+grants=n 表示不导出权限；
+
+
+feedback表示10000条记录反馈一次——表现在终端就是一个黑点；
+
+
+file就不用说了
+
+
+owner指明从哪个用户下导出
+
+
+
+
+
+
+2、select 'alter table '||table_name||' allocate extent;' from user_tables where num_rows=0;
+数据为空时可能不会到处该表，则执行如上语句，然后执行查询结果分配空间，再导出

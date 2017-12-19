@@ -1,0 +1,15 @@
+0、总览
+https://www.zhihu.com/question/21318658
+
+1、慕课：
+浙江大学 http://mooc.study.163.com/course/ZJU-1000033001?from=study#/info
+清华大学（内容更深更多） http://www.xuetangx.com/courses/course-v1:TsinghuaX+30240184X+sp/about
+
+2、书籍：
+数据结构与算法分析（经典之作，广为人知）  https://book.douban.com/subject/1139426/
+数据结构（严蔚敏的，就是国内大学常用的那本。严谨，伪代码不错。） https://book.douban.com/subject/2024655/
+大话数据结构（语言比较通俗。比第一本简单易懂。btw，作者程杰老师在知乎上也相当活跃） https://book.douban.com/subject/6424904/
+算法（第四版）（图超多。比第一本简单易懂。） https://book.douban.com/subject/19952400/
+
+3、可视化
+http://visualgo.net

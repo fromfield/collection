@@ -1,0 +1,36 @@
+替换字段中字符：UPDATE t_subject SET jour_url=REPLACE(jour_url, 'http://m.chaoxing.com/mqk/list?', 'http://qikan.chaoxing.com/mag/infos?');  
+
+
+
+
+1、创建my.ini
+
+ 内容：
+    [mysqld]
+basedir=D:\Program Files (x86)\MySQL Server 5.7
+datadir=D:\Program Files (x86)\MySQL Server 5.7\data
+port=3306
+character-set-server=utf8
+sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+
+
+2、mysqld -install（删除服务是：mysqld --remove）
+3、mysqld  --initialize
+4、net start mysql
+
+
+
+
+mysql>show variables like 'character_set%'; //查看mysql编码
+mysql>create database td1; //创建表空间，请在修改编码集后创建
+mysql>create user liyi01@'%' identified by 'fromfield'; //创建用户appplat在任何主机登录，密码appplat
+mysql>grant all privileges on td1.* to liyi01@'localhost'; //赋予用户appplat在appplat表空间所有权限mysql>flush privileges; //刷新系统权限表
+
+
+在init文件中编码：
+[mysql]
+no-auto-rehash
+default-character-set=utf8
+
+serverTimezone=UTC
+

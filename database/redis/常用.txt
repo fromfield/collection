@@ -1,0 +1,44 @@
+redis-server.exe redis.windows.conf
+
+
+redis.cli.exe -h 127.0.0.1 -p 6379
+
+
+查看redis本机的状态
+redis-cli -h 192.168.12.12 -p 6379 -a a603fd9c-f96a-43d9-8913-c49947ee14fe info Replication
+
+启动redis 服务
+sudo /usr/bin/redis-server /etc/redis/redis.conf
+
+以redis身份启动redis服务
+sudo -u redis /usr/bin/redis-server /etc/redis/redis.conf
+
+杀死redis用户进程
+sudo -u redis kill -9 进程id
+
+redis 主从复制配置
+bind 192.168.12.12 
+slaveof 192.168.12.11 6379 
+masterauth “a603fd9c-f96a-43d9-8913-c49947ee14fe” 
+requirepass “a603fd9c-f96a-43d9-8913-c49947ee14fe”
+
+关闭redis用户启动的redis-server
+sudo -u redis redis-cli -h 10.89.131.107 -p 6379 -a a603fd9c-f96a-43d9-8913-c49947ee14fe shutdown
+
+
+
+
+
+
+
+
+
+
+redis：redis-cli
+
+dbsize
+
+key *
+
+
+

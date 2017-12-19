@@ -1,0 +1,32 @@
+列转行（unpivot函数,ledgerType,sums自定义，前后对应）：
+
+
+ select 8 as y,ledgerType,sums from (select * from (
+         select rownum r,a.* from account_yue a where reportDate = to_date('2015/12/31','yyyy/mm/dd') and orgid = 223316 order by id
+         ) where r = 8)
+   
+  unpivot
+  (
+  sums for ledgerType in (T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22,T23,T24,T25,T26,T27,T28,T29,T30,T31,T32,T33,T34,T35,T36,T37)
+  ); 
+  
+  
+行转列：
+select o.orgLevel,
+           decode(o.ledgerType,11,sum(o.count),0) water,
+          decode(o.ledgerType,12,sum(o.count),0) traffic,
+          decode(o.ledgerType,16,sum(o.count),0) energy,
+          decode(o.ledgerType,13,sum(o.count),0) education,
+          decode(o.ledgerType,110,sum(o.count),0) science,
+          decode(o.ledgerType,14,sum(o.count),0) medical,
+          decode(o.ledgerType,17,sum(o.count),0) labor,
+          decode(o.ledgerType,18,sum(o.count),0) environment,
+          decode(o.ledgerType,19,sum(o.count),0) town,
+          decode(o.ledgerType,15,sum(o.count),0) agriculture,
+          decode(o.ledgerType,111,sum(o.count),0) other,
+          sum(o.count) sums
+         from (
+         
+         select org.orglevel,lpp.ledgerType,count(lpp.id) count from ledgerPeopleAspirations lpp,organizations org where lpp.orgId = org.id and group by lpp.ledgerType,org.orgLevel
+         
+         ) o group by o.orgLevel,o.ledgerType 

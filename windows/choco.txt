@@ -1,0 +1,10 @@
+搜索包： choco search package  
+列出本地已安装的包 ：choco list -lo 
+列出Windows系统已安装的软件： choco list -li 
+安装： choco install package  
+固定包的版本，防止包被升级： choco pin package  
+查看安装包版本（包含是否可升级信息）： choco version package  
+安装包的升级： choco upgrade package  
+升级所有已安装的包： choco upgrade all -y
+安装包的卸载： choco uninstall package 
+升级自身： choco upgrade chocolatey

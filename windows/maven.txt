@@ -1,0 +1,2 @@
+第三方jar包构建到maven：
+mvn install:install-file -Dfile=D:\honc\TD项目\jar\taobao-sdk-java-auto-source.jar -DgroupId=taobao-sdk-java-auto-source -DartifactId=taobao-sdk-java-auto-source -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true  
