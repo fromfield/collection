@@ -1,14 +1,14 @@
-idea×¢²á(license)£º
+ideaæ³¨å†Œ(license)ï¼š
 http://idea.iteblog.com/key.php
 http://intellij.mandroid.cn/ 
 http://idea.imsxm.com/ 
 
-idea×Ô¶¯±£´æ±àÒë£º
-File ¨C> Setting ¨C> Build, Execution, Deployment ¨C> Compiler ¨C> check this Build project automatically
+ideaè‡ªåŠ¨ä¿å­˜ç¼–è¯‘ï¼š
+File â€“> Setting â€“> Build, Execution, Deployment â€“> Compiler â€“> check this Build project automatically
 Press SHIFT+CTRL+A (Win/Lin) or Command+CTRL+A (Mac) to open a pop-up windows, type registry
 Find and check this option compiler.automake.allow.when.app.running
 
-JVM´úÀí£º
+JVMä»£ç†ï¼š
 -DsocksProxyHost=127.0.0.1
 -DsocksProxyPort=1090
 -Xms512M
@@ -17,35 +17,37 @@ JVM´úÀí£º
 -agentpath:/Users/imiracle/Develop/jrebel/lib/libjrebel64.dylib
 
 
-¿ì½İ¼ü£º
-Ctrl+B/Ctrl+Click£¬¿ìËÙ´ò¿ª¹â±ê´¦µÄÀà»ò·½·¨£¨Ìø×ªµ½¶¨Òå´¦£©
-Ctrl+Alt+B£¬Ìø×ªµ½·½·¨ÊµÏÖ´¦
-Ctrl+Shift+J£¬ÕûºÏÁ½ĞĞ
-Alt+F8£¬¼ÆËã±äÁ¿Öµ
-Alt+F7£¬²éÕÒÕû¸ö¹¤³ÌÖĞÊ¹ÓÃµØÄ³Ò»¸öÀà¡¢·½·¨»òÕß±äÁ¿µÄÎ»ÖÃ
-Ctrl+Shift+U£¬´óĞ¡Ğ´×ª»¯
-Alt+Shift+Inert£¬¿ªÆô/¹Ø±ÕÁĞÑ¡ÔñÄ£Ê½
-Ctrl+G£¬¶¨Î»ĞĞ
-Ctrl+Alt+Shift+T£¬µ¯³öÖØ¹¹²Ëµ¥
-Ctrl+Alt+O£¬ÓÅ»¯µ¼Èë°ü
-Ctrl+Enter£¬µ¼Èë°ü£¬×Ô¶¯ĞŞÕı
-Ctrl+Alt+L£¬¸ñÊ½»¯´úÂë
-Ctrl+Alt+I£¬½«Ñ¡ÖĞµÄ´úÂë½øĞĞ×Ô¶¯Ëõ½ø±àÅÅ£¬Õâ¸ö¹¦ÄÜÔÚ±à¼­ JSP ÎÄ¼şÊ±Ò²¿ÉÒÔ¹¤×÷
-Ctrl+Q£¬²Î¿´·½·¨¶¨Òå
+å¿«æ·é”®ï¼š
+Ctrl+B/Ctrl+Clickï¼Œå¿«é€Ÿæ‰“å¼€å…‰æ ‡å¤„çš„ç±»æˆ–æ–¹æ³•ï¼ˆè·³è½¬åˆ°å®šä¹‰å¤„ï¼‰
+Ctrl+Alt+Bï¼Œè·³è½¬åˆ°æ–¹æ³•å®ç°å¤„
+Ctrl+Shift+Jï¼Œæ•´åˆä¸¤è¡Œ
+Alt+F8ï¼Œè®¡ç®—å˜é‡å€¼
+Alt+F7ï¼ŒæŸ¥æ‰¾æ•´ä¸ªå·¥ç¨‹ä¸­ä½¿ç”¨åœ°æŸä¸€ä¸ªç±»ã€æ–¹æ³•æˆ–è€…å˜é‡çš„ä½ç½®
+Ctrl+Shift+Uï¼Œå¤§å°å†™è½¬åŒ–
+Alt+Shift+Inertï¼Œå¼€å¯/å…³é—­åˆ—é€‰æ‹©æ¨¡å¼
+Ctrl+Gï¼Œå®šä½è¡Œ
+Ctrl+Alt+Shift+Tï¼Œå¼¹å‡ºé‡æ„èœå•
+Ctrl+Alt+Oï¼Œä¼˜åŒ–å¯¼å…¥åŒ…
+Ctrl+Enterï¼Œå¯¼å…¥åŒ…ï¼Œè‡ªåŠ¨ä¿®æ­£
+Ctrl+Alt+Lï¼Œæ ¼å¼åŒ–ä»£ç 
+Ctrl+Alt+Iï¼Œå°†é€‰ä¸­çš„ä»£ç è¿›è¡Œè‡ªåŠ¨ç¼©è¿›ç¼–æ’ï¼Œè¿™ä¸ªåŠŸèƒ½åœ¨ç¼–è¾‘ JSP æ–‡ä»¶æ—¶ä¹Ÿå¯ä»¥å·¥ä½œ
+Ctrl+Qï¼Œå‚çœ‹æ–¹æ³•å®šä¹‰
+Ctrl+Dï¼Œæ¯”è¾ƒæ–‡ä»¶
+Ctrl+Kï¼Œæäº¤
 
 
-µ÷ÊÔ£º
-F8£¬²½¹ı
-F7£¬²½Èë
-Shift+F7£¬ÖÇÄÜ²½Èë
-Shift+F8£¬²½³ö
-Alt+Shift+F8£¬Ç¿ÖÆ²½¹ı
-Alt+Shift+F7£¬Ç¿ÖÆ²½Èë
-Alt+F9£¬ÔËĞĞÖÁ¹â±ê´¦
-F9£¬»Ö¸´³ÌĞò
+è°ƒè¯•ï¼š
+F8ï¼Œæ­¥è¿‡
+F7ï¼Œæ­¥å…¥
+Shift+F7ï¼Œæ™ºèƒ½æ­¥å…¥
+Shift+F8ï¼Œæ­¥å‡º
+Alt+Shift+F8ï¼Œå¼ºåˆ¶æ­¥è¿‡
+Alt+Shift+F7ï¼Œå¼ºåˆ¶æ­¥å…¥
+Alt+F9ï¼Œè¿è¡Œè‡³å…‰æ ‡å¤„
+F9ï¼Œæ¢å¤ç¨‹åº
 
-VCS£º
-Alt+~£¬VCS ²Ù×÷²Ëµ¥
-Ctrl+K£¬Ìá½»¸ü¸Ä
-Ctrl+T£¬¸üĞÂÏîÄ¿
-Ctrl+Alt+Shift+D£¬ÏÔÊ¾±ä»¯
+VCSï¼š
+Alt+~ï¼ŒVCS æ“ä½œèœå•
+Ctrl+Kï¼Œæäº¤æ›´æ”¹
+Ctrl+Tï¼Œæ›´æ–°é¡¹ç›®
+Ctrl+Alt+Shift+Dï¼Œæ˜¾ç¤ºå˜åŒ–
