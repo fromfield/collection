@@ -3,6 +3,11 @@ http://idea.iteblog.com/key.php
 http://intellij.mandroid.cn/ 
 http://idea.imsxm.com/ 
 
+
+jrebel license：
+9wxnhp9uTM3tOaE+8wpHgr7vUJ4O9YBl+ZE9lHjoDEGevK9R1aD6GFMW4BYZYvX/Q7DN9wcOWGOl8PWwS7Ncmj4g2XP4nLGBVGCrtCwtEzb3XTFCI0wtAYlY0vwLfQSK4VSqUA==
+
+
 idea自动保存编译：
 File –> Setting –> Build, Execution, Deployment –> Compiler –> check this Build project automatically
 Press SHIFT+CTRL+A (Win/Lin) or Command+CTRL+A (Mac) to open a pop-up windows, type registry
