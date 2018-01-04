@@ -1,7 +1,7 @@
 idea注册(license)：
 http://idea.iteblog.com/key.php
-http://intellij.mandroid.cn/ 
-http://idea.imsxm.com/ 
+http://intellij.mandroid.cn/
+http://idea.imsxm.com/
 
 
 jrebel license：
@@ -38,7 +38,8 @@ Ctrl+Alt+L，格式化代码
 Ctrl+Alt+I，将选中的代码进行自动缩进编排，这个功能在编辑 JSP 文件时也可以工作
 Ctrl+Q，参看方法定义
 Ctrl+D，比较文件
-Ctrl+K，提交
+Ctrl+K，提交（add、commit）
+Ctrl+Shift+K，push
 
 
 调试：
