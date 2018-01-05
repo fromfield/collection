@@ -1,0 +1,5 @@
+奇异值分解：http://www.cnblogs.com/LeftNotEasy/archive/2011/01/19/svd-and-applications.html
+
+matlab
+
+k-means（聚类算法）：https://www.csdn.net/article/2012-07-03/2807073-k-means
